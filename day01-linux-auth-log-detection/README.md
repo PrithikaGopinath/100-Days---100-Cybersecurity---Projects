@@ -7,6 +7,7 @@ Detect suspicious SSH login activity using Linux authentication logs.
 - Linux
 - Bash
 - grep, awk
+- journalctl
 
 ## What I Did
 - Analyzed authentication logs
