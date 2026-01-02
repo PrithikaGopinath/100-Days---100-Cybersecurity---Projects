@@ -1,1 +1,2 @@
-# 100-Days---100-Cybersecurity---Projects
+## Progress
+- ✅ Day 1: Linux Authentication Log Attack Detection
