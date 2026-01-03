@@ -15,7 +15,7 @@ Each day includes:
 | Day | Project | Folder |
 |-----|---------|--------|
 | 01 | SSH Authentication Log Attack Detection | [Day01-SSH-Auth-Log-Detection](Day01-SSH-Auth-Log-Detection) |
-| 02 | Coming soon | — |
+| 02 | Linux File Permissions & Privilege Escalation | [Day-02-File-Permissions](Day-02-File-Permissions) |
 
 ---
 
