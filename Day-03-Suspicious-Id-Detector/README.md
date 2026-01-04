@@ -4,7 +4,7 @@
 Detect repeated failed login attempts in Linux authentication logs and flag suspicious IPs that may indicate brute-force attacks.
 
 ## 🛠️ What It Does  
-- Parses `/var/log/auth.log` or a sample log file  
+- Parses 'sample_log.auth' 
 - Extracts IPs from failed login attempts  
 - Counts attempts per IP  
 - Flags IPs exceeding a threshold (default: 5)  
