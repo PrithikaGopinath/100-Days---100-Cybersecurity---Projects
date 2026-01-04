@@ -16,6 +16,7 @@ Each day includes:
 |-----|---------|--------|
 | 01 | SSH Authentication Log Attack Detection | [Day-01-Linux-Auth-Log-Detection](Day-01-Linux-Auth-Log-Detection) |
 | 02 | Linux File Permissions & Privilege Escalation | [Day-02-File-Permissions](Day-02-File-Permissions) |
+| 03 | Suspicious IP Detector — Linux Log Analysis & Brute‑Force Detection | [Day-03-Suspicious-Ip-Detector](Day-03-Suspicious-Ip-Detector) |
 
 ---
 
