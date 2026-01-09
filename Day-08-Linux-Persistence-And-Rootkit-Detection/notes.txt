@@ -1,0 +1,101 @@
+Day 08 — Notes  
+Linux Persistence & Rootkit Detection  
+-------------------------------------
+
+These are raw notes, command outputs, and observations collected during the Day 08 tasks.  
+This file is not polished — it is meant for internal reference only.
+
+-------------------------------------
+[ Cron Job Checks ]
+-------------------------------------
+Commands:
+- crontab -l
+- ls -la /etc/cron*
+
+Notes:
+- No suspicious cron entries.
+- No unexpected scripts in cron.hourly, cron.daily, cron.weekly.
+- No persistence via cron detected.
+
+-------------------------------------
+[ Systemd Service Review ]
+-------------------------------------
+Commands:
+- systemctl list-units --type=service
+- cat /etc/systemd/system/*.service
+
+Notes:
+- All services appear legitimate.
+- No unknown or malicious services.
+- No persistence via systemd.
+
+-------------------------------------
+[ Shell Startup Files ]
+-------------------------------------
+Files checked:
+- ~/.bashrc
+- ~/.profile
+- ~/.bash_profile
+
+Notes:
+- No injected commands.
+- No reverse shells.
+- No malicious aliases.
+
+-------------------------------------
+[ chkrootkit Output ]
+-------------------------------------
+Command:
+- sudo chkrootkit
+
+Notes:
+- No INFECTED results.
+- Standard warnings only (normal for Kali).
+- No hidden processes.
+
+-------------------------------------
+[ rkhunter Output ]
+-------------------------------------
+Command:
+- sudo rkhunter --update
+- sudo rkhunter --check
+
+Notes:
+- No modified system binaries.
+- No suspicious kernel modules.
+- No hidden files.
+- Standard warnings (e.g., unhide, dev files) — expected.
+
+-------------------------------------
+[ debsums Output ]
+-------------------------------------
+Command:
+- debsums -s
+- sudo debsums -s
+
+Notes:
+- Permission denied on protected files (normal).
+- No missing or altered checksums.
+
+-------------------------------------
+[ Kernel Module Inspection ]
+-------------------------------------
+Command:
+- lsmod
+
+Notes:
+- All modules appear legitimate.
+- No unknown modules.
+- No abnormal dependencies.
+
+-------------------------------------
+[ General Observations ]
+-------------------------------------
+- System appears clean.
+- No persistence mechanisms detected.
+- No signs of rootkits.
+- All integrity checks passed.
+
+-------------------------------------
+End of Day 08 Notes
+-------------------------------------
