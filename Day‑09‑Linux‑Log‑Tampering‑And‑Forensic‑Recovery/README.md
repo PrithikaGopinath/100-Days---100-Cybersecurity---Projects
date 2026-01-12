@@ -1,4 +1,4 @@
-# Day 09 – Linux Log Tampering & Forensic Recovery
+# Day 09 – Linux Log Tampering And Forensic Recovery
 
 ## Objective
 Simulate log tampering on a Linux system and attempt forensic recovery to understand how attackers erase traces and how defenders detect or respond when logs are missing.
