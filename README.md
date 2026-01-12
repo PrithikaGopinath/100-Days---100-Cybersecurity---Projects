@@ -22,7 +22,7 @@ Each day includes:
 | 06 | Malware Identification | [Day-06-Malware-Identification](Day-06-Malware-Identification) |
 | 07 | Linux Privilege Escalation SUID Basics | [Day-07-Linux-Privilege-Escalation-(SUID%20Basics)](Day-07-Linux-Privilege-Escalation-(SUID%20Basics)) |
 | 08 | Linux Persistence & Rootkit Detection | [Day-08-Linux-Persistence-And-Rootkit-Detection](Day-08-Linux-Persistence-And-Rootkit-Detection) | 
-[Day-09-Linux-Log-Tampering-And-Forensic-Recovery](./Day-09-Linux-Log-Tampering-And-Forensic-Recovery)
+| 09 | Day-09-Linux-Log-Tampering-And-Forensic-Recovery | [Day-09-Linux-Log-Tampering-And-Forensic-Recovery](./Day-09-Linux-Log-Tampering-And-Forensic-Recovery) |
 | 10 | Analyse Suspicious Cron Jobs | [Day-10-Analyse-Suspicious-Cron-Jobs](Day-10-Analyse-Suspicious-Cron-Jobs) | 
 | 11 | Top 15 Linux Commands Every Cybersecurity Student Should Know | [Day-11-Top-15-Linux-Commands-To-Know](Day-11-Top-15-Linux-Commands-To-Know) |
 
