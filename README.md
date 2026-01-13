@@ -25,7 +25,7 @@ Each day includes:
 | 09  | Linux Log Tampering & Forensic Recovery | [Day-09-Linux-Log-Tampering-And-Forensic-Recovery](./Day-09-Linux-Log-Tampering-And-Forensic-Recovery) |
 | 10 | Analyse Suspicious Cron Jobs | [Day-10-Analyse-Suspicious-Cron-Jobs](Day-10-Analyse-Suspicious-Cron-Jobs) | 
 | 11 | Top 15 Linux Commands Every Cybersecurity Student Should Know | [Day-11-Top-15-Linux-Commands-To-Know](Day-11-Top-15-Linux-Commands-To-Know) |
-
+| 12 | Linux Network Forensics And Suspicious Connections Analysis | [Day-12-Linux-Network-Forensics-And-Suspicious-Connections-Analysis](Day-12-Linux-Network-Forensics-And-Suspicious-Connections-Analysis) |
 
 
 
