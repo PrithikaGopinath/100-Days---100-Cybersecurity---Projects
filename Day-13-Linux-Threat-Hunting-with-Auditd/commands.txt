@@ -1,0 +1,30 @@
+# Install auditd
+sudo apt update
+sudo apt install auditd audispd-plugins -y
+
+# Enable and start auditd
+sudo systemctl enable auditd
+sudo systemctl start auditd
+
+# Edit rules
+sudo nano /etc/audit/rules.d/audit.rules
+
+# Reload rules
+sudo augenrules --load
+sudo systemctl restart auditd
+
+# Create test file
+touch /tmp/testfile
+
+# Simulate suspicious activity
+sudo chmod 777 /tmp/testfile
+sudo chown root:root /tmp/testfile
+sudo cat /etc/passwd
+
+# Search logs
+sudo ausearch -k chmod_exec
+sudo ausearch -k chown_exec
+sudo ausearch -k passwd_watch
+
+# Summary report
+sudo aureport -x --summary
