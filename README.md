@@ -26,7 +26,7 @@ Each day includes:
 | 10 | Analyse Suspicious Cron Jobs | [Day-10-Analyse-Suspicious-Cron-Jobs](Day-10-Analyse-Suspicious-Cron-Jobs) | 
 | 11 | Top 15 Linux Commands Every Cybersecurity Student Should Know | [Day-11-Top-15-Linux-Commands-To-Know](Day-11-Top-15-Linux-Commands-To-Know) |
 | 12 | Linux Network Forensics & Suspicious Connections Analysis | [Day-12-Network-Forensics-And-Suspicious-Connections-Analysis](Day-12-Network-Forensics-And-Suspicious-Connections-Analysis) |
-
+| 13 | Linux Threat Hunting with Sysmon and Auditd | [Day-13-Linux-Threat-Hunting-with-Sysmon-and-Auditd](Day-13-Linux-Threat-Hunting-with-Sysmon-and-Auditd) |
 
 
 
